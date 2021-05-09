@@ -12,7 +12,7 @@ app.listen(PORT, () => {
 });
 
 const orderbeerFuncion = require('./controllers/orderbeerController')
-const homepageFuncion = require('./controllers/firstpageController')
+
 
 
 app.get('/beerthai',orderbeerFuncion.renderorderbeer)
